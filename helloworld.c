@@ -4,10 +4,12 @@ void
 main()
 {
 	int var = 0;
+	char buf;
 
-	scanf("%x", &var);
+	scanf("%c", &buf);
 	//var = printf("hello_world\n");
-	printf("var = %d\n", var);
+	//printf("var = %x\n",var);
+	printf("buf = %c\n",buf);
 
 	return;
 }
